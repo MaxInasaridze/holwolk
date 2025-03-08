@@ -9,6 +9,7 @@ export default function Card(props) {
         <h3>Course: {props.kursi}</h3>
         <h3> Attendens: {props.daswvreba}%</h3>
         <h4 className="scholarship" style={{ color: props.stipendia ? 'green' : 'red' }}>{props.stipendia ? 'With Scholarship' : 'Without Scholarship'}</h4>
+        
     </div>
   )
 }
